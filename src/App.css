@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 120vh;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.container {
+  text-align: center;
+  padding-top: 21rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: .7rem;
+  color: maroon;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  color: goldenrod;
+}
+
+button {
+  background: maroon;
+  color: black;
+  padding: 1rem 4rem;
+  border-radius: .5rem;
+  border: none;
+}
+
+button:hover {
+  background: goldenrod;
+  color: maroon;
+  transition: 1s;
+}
+
+.quiz {
+  color: maroon;
+  margin-top: 2rem;
+}
+
+.correct {
+  background: rgba(0, 128, 30, 0.984);
+}
+
+.incorrect {
+  background-color: red;
+}
+
+p {
+  margin-top: 3rem;
+  color: white;
+}
+
+.quiz-title {
+  margin-bottom: 3rem;
+}
+
+ .quiz-container {
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  height: 900px;
+  text-align: center;
+  margin-top: 3rem;
+} 
+
+.question-card ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: .5rem;
+}
+
+.question-card ul li { 
+  flex-direction: row;
+  padding: .5rem .5rem;
+  border: 2px solid maroon;
+  color: goldenrod;
+  border-radius: .5rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+
+}
+
+.questions-results {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.question-key {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.selected-answer-key {
+  margin-bottom: 1rem;
+}
+
+.score-button {
+  background-color: maroon; 
+  color: goldenrod; 
+  border: 1px solid black;
+  padding: 1rem 3rem; 
+  font-size: 16px; 
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.score-button:hover {
+  background-color: goldenrod;
+  color: maroon;
+}
+
+.quiz-results {
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+  color: goldenrod;
+}
